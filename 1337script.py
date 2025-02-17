@@ -2,10 +2,10 @@ import tweepy
 import time 
 from plyer import notification
 
-API_KEY = 'LGlGh3ORzXADKBrI02MsKC6Tz'
-API_SECRET_KEY = 'GgsVmaRVyBoAlaZGWaKosLZbmRGFDunXdHxxsfUlqIVjHYsPqa'
-ACCESS_TOKEN = '1874529763806543872-BDYehAjLumQd68bzxeZtVXCRbDIBkG'
-ACCESS_TOKEN_SECRET = 'HHpx37aoTDf2jbL9Wp9GhM51S3BzQ2LoRTuC244XRKLOX'
+API_KEY = ''
+API_SECRET_KEY = ''
+ACCESS_TOKEN = ''
+ACCESS_TOKEN_SECRET = ''
 
 authentification = tweepy.OAuthHandler(API_KEY, API_SECRET_KEY)
 authentification.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
